@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="sr" itemscope itemtype="https://schema.org/Service">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Cene Usluga - MDetailing Zrenjanin | Dubinsko Pranje Nameštaja i Vozila u Zrenjaninu- Cenovnik</title>
+    <meta name="title" content="Cene Usluga - MDetailing Zrenjanin | Dubinsko Pranje Nameštaja i Vozila - Cenovnik">
+    <meta name="description" content="💰 Transparentne cene dubinskog pranja u Zrenjaninu! Nameštaj od 500 RSD, vozila od 60€. ✅ Bez skrivenih troškova. 📞 061/211-7615 📍 Valjevska 5">
+    <meta name="keywords" content="cene dubinskog pranja Zrenjanin, cenovnik čišćenja nameštaja, cena pranja vozila Zrenjanin, MDetailing cene, transparentne cene">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mdetailing-zrenjanin.rs/usluge.html">
+    <meta property="og:title" content="Cene Usluga - MDetailing Zrenjanin | Dubinsko Pranje - Cenovnik">
+    <meta property="og:description" content="💰 Transparentne cene dubinskog pranja u Zrenjaninu! Nameštaj od 500 RSD, vozila od 60€.">
+    <meta property="og:image" content="https://mdetailing-zrenjanin.rs/slike/og-image-usluge.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mdetailing-zrenjanin.rs/usluge.html">
+
+    <!-- Structured Data - Service -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Dubinsko pranje nameštaja i vozila Zrenjanin",
+        "description": "Profesionalne usluge dubinskog čišćenja nameštaja i vozila u Zrenjaninu sa transparentnim cenama",
+        "provider": {
+            "@type": "LocalBusiness",
+            "name": "MDetailing Zrenjanin",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Valjevska 5",
+                "addressLocality": "Zrenjanin",
+                "postalCode": "23000",
+                "addressCountry": "RS"
+            },
+            "telephone": "+381612117615"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Zrenjanin"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Cenovnik dubinskog pranja",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Dubinsko pranje ugaone garniture"
+                    },
+                    "price": "2500",
+                    "priceCurrency": "RSD"
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Dubinsko pranje vozila - unutrašnji detailing"
+                    },
+                    "price": "60-80",
+                    "priceCurrency": "EUR"
+                }
+            ]
+        }
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="slike/favicon.ico">
+    <style>
+        .hero-services {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .price-card {
+            transition: all 0.3s ease;
+        }
+        .price-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .price-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #3b82f6;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+        }
+
+        /* Mobile Menu Styles */
+        .mobile-menu {
+            transition: all 0.3s ease;
+            max-height: 0;
+            overflow: hidden;
+        }
+        
+        .mobile-menu.active {
+            max-height: 400px;
+        }
+
+        .mobile-menu-button i {
+            transition: transform 0.3s ease;
+        }
+
+        .mobile-menu-button.active i {
+            transform: rotate(90deg);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                     <img src="slike/logo.jpg" alt="MDetailing Logo - Cene dubinskog pranja Zrenjanin" class="h-12 w-auto mr-2">
+                    <span class="font-bold text-xl text-blue-600">M<span class="text-blue-800">Detailing</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-600">Početna</a>
+                    <a href="usluge.html" class="text-blue-600 font-medium" aria-current="page">Usluge</a>
+                    <a href="o_nama.html" class="text-gray-600 hover:text-blue-600">O nama</a>
+                    <a href="galerija.html" class="text-gray-600 hover:text-blue-600">Galerija</a>
+                    <a href="kontakt.html" class="text-gray-600 hover:text-blue-600">Kontakt</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="outline-none mobile-menu-button" aria-label="Otvori meni">
+                        <i class="fas fa-bars text-gray-600 text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="mobile-menu md:hidden bg-white border-t border-gray-200">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base hover:bg-gray-50">Početna</a>
+                    <a href="usluge.html" class="text-blue-600 font-medium block px-3 py-2 rounded-md text-base hover:bg-gray-50">Usluge</a>
+                    <a href="o_nama.html" class="text-gray-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base hover:bg-gray-50">O nama</a>
+                    <a href="galerija.html" class="text-gray-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base hover:bg-gray-50">Galerija</a>
+                    <a href="kontakt.html" class="text-gray-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base hover:bg-gray-50">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-services h-96 flex items-center justify-center text-white pt-16">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Cene Dubinskog Pranja</h1>
+            <p class="text-xl md:text-2xl mb-8">Transparentne cene za sve vrste dubinskog čišćenja nameštaja i vozila</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="kontakt.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">Zakažite termin</a>
+                <a href="tel:+381612117615" class="bg-transparent hover:bg-white hover:text-blue-800 text-white font-bold py-3 px-8 border-2 border-white rounded-lg transition duration-300 transform hover:scale-105">📞Pozovite 061/211-7615</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Vehicle Services -->
+    <section class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Dubinsko Pranje Vozila - Cenovnik</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">Kompletna detaljna obrada enterijera i eksterijera vašeg vozila</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Package 1 -->
+                <div class="price-card bg-white rounded-lg shadow-md overflow-hidden relative border border-gray-200">
+                    <div class="price-badge">Paket 1</div>
+                    <div class="p-8">
+                        <div class="service-icon bg-blue-100">
+                            <i class="fas fa-car text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-6">Unutrašnji detailing vozila</h3>
+                        <div class="text-center mb-4">
+                            <span class="text-2xl font-bold text-blue-600">60-80€</span>
+                        </div>
+                        <ul class="space-y-3 text-sm">
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Dubinsko pranje sedišta, tepih i tapacirunga</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Detaljno čišćenje plastika, volana i komandne table</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Čišćenje stakla iznutra</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Detaljno čišćenje u kombinaciji sa dodatnim alatom</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Package 2 -->
+                <div class="price-card bg-white rounded-lg shadow-md overflow-hidden relative border border-gray-200">
+                    <div class="price-badge">Paket 2</div>
+                    <div class="p-8">
+                        <div class="service-icon bg-blue-100">
+                            <i class="fas fa-car-side text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-6">Komplet detailing vozila</h3>
+                        <div class="text-center mb-4">
+                            <span class="text-2xl font-bold text-blue-600">70-90€</span>
+                        </div>
+                        <ul class="space-y-3 text-sm">
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Uključuje sve iz paketa 1, plus</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Spoljašnje ručno pranje karoserije</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Osnovno pranje felni (Pena+ručno pranje)</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Pranje pragova i detalja</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Nanošenje sjaja za plastike</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Čišćenje stakla spolja</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Package 3 -->
+                <div class="price-card bg-white rounded-lg shadow-md overflow-hidden relative border border-gray-200">
+                    <div class="price-badge">Paket 3</div>
+                    <div class="p-8">
+                        <div class="service-icon bg-blue-100">
+                            <i class="fas fa-star text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-6">Premium detailing vozila</h3>
+                        <div class="text-center mb-4">
+                            <span class="text-2xl font-bold text-blue-600">120-140€</span>
+                        </div>
+                        <ul class="space-y-3 text-sm">
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Uključuje sve iz paketa 2, plus</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Poliranje farova</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Voskiranje laka</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-2 mt-1"></i><span class="text-gray-600">Ozonizacija vozila</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Dubinsko Pranje Nameštaja - Cenovnik</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">Profesionalno čišćenje svih vrsta nameštaja u Zrenjaninu sa garancijom kvaliteta</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Sofas -->
+                <div class="price-card bg-white rounded-lg shadow-md overflow-hidden relative border border-gray-200">
+                    <div class="price-badge">Nameštaj</div>
+                    <div class="p-8">
+                        <div class="service-icon bg-blue-100">
+                            <i class="fas fa-couch text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-6">Sedni nameštaj</h3>
+                        <ul class="space-y-4">
+                            <li class="flex justify-between items-center border-b border-gray-100 pb-2"><span class="text-gray-600">Ugaona (po sedalnom mestu)</span><span class="font-bold text-blue-600">1.000 RSD</span></li>
+                            <li class="flex justify-between items-center border-b border-gray-100 pb-2"><span class="text-gray-600">Trosed</span><span class="font-bold text-blue-600">3.000 RSD</span></li>
+                            <li class="flex justify-between items-center border-b border-gray-100 pb-2"><span class="text-gray-600">Dvosed</span><span class="font-bold text-blue-600">2.000 RSD</span></li>
+                            <li class="flex justify-between items-center border-b border-gray-100 pb-2"><span class="text-gray-600">Fotelja</span><span class="font-bold text-blue-600">1.000 RSD</span></li>
+                            <li class="flex justify-between items-center border-b border-gray-100 pb-2"><span class="text-gray-600">Stolice</span><span class="font-bold text-blue-600">500 RSD</span></li>
+                            <li class="flex justify-between items-center pb-2"><span class="text-gray-600">Tabure</span><span class="font-bold text-blue-600">500 RSD</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Cushions -->
+                <div class="price-card bg-white rounded-lg shadow-md overflow-hidden relative border border-gray-200">
+                    <div class="price-badge">Jastuci</div>
+                    <div class="p-8">
+                        <div class="service-icon bg-blue-100">
+                            <i class="fas fa-mattress-pillow text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-6">Jastuci i nasloni</h3>
+                        <ul class="space-y-4">
+                            <li class="flex justify-between items-center border-b border-gray-100 pb-2"><span class="text-gray-600">Veliki jastuk</span><span class="font-bold text-blue-600">300 RSD</span></li>
+                            <li class="flex justify-between items-center pb-2"><span class="text-gray-600">Mali jastuk</span><span class="font-bold text-blue-600">200 RSD</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Mattresses -->
+                <div class="price-card bg-white rounded-lg shadow-md overflow-hidden relative border border-gray-200">
+                    <div class="price-badge">Dušeci</div>
+                    <div class="p-8">
+                        <div class="service-icon bg-blue-100">
+                            <i class="fas fa-bed text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-6">Dubinsko pranje dušeka</h3>
+                        <ul class="space-y-4">
+                            <li class="flex justify-between items-center border-b border-gray-100 pb-2"><span class="text-gray-600">Francuski ležaj</span><span class="font-bold text-blue-600">2.000 RSD</span></li>
+                            <li class="flex justify-between items-center border-b border-gray-100 pb-2"><span class="text-gray-600">Bračni dušek - obostrano</span><span class="font-bold text-blue-600">2.500 RSD</span></li>
+                            <li class="flex justify-between items-center border-b border-gray-100 pb-2"><span class="text-gray-600">Bračni dušek - jednostrano</span><span class="font-bold text-blue-600">1.500 RSD</span></li>
+                            <li class="flex justify-between items-center border-b border-gray-100 pb-2"><span class="text-gray-600">Single dušek - obostrano</span><span class="font-bold text-blue-600">2.000 RSD</span></li>
+                            <li class="flex justify-between items-center border-b border-gray-100 pb-2"><span class="text-gray-600">Single dušek - jednostrano</span><span class="font-bold text-blue-600">1.200 RSD</span></li>
+                            <li class="flex justify-between items-center pb-2"><span class="text-gray-600">Baby dušek - obostrano</span><span class="font-bold text-blue-600">800 RSD</span></li>
+                            <li class="flex justify-between items-center pb-2"><span class="text-gray-600">Baby dušek - jednostrano</span><span class="font-bold text-blue-600">500 RSD</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Machine Rental Services -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Iznajmljivanje Mašine za Dubinsko Pranje</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">Profesionalne mašine za samostalno dubinsko čišćenje</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Rental Pricing -->
+                <div class="price-card bg-white rounded-lg shadow-md overflow-hidden relative border border-gray-200">
+                    <div class="price-badge">Iznajmljivanje</div>
+                    <div class="p-8">
+                        <div class="service-icon bg-blue-100">
+                            <i class="fas fa-tools text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-6">Cene iznajmljivanja</h3>
+                        <ul class="space-y-4">
+                            <li class="flex justify-between items-center border-b border-gray-100 pb-2"><span class="text-gray-600">24h</span><span class="font-bold text-blue-600">2500 RSD</span></li>
+                            <li class="flex justify-between items-center border-b border-gray-100 pb-2"><span class="text-gray-600">48h</span><span class="font-bold text-blue-600">4750 RSD</span></li>
+                            <li class="flex justify-between items-center pb-2"><span class="text-gray-600">72h</span><span class="font-bold text-blue-600">7000 RSD</span></li>
+                        </ul>
+                        <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+                            <p class="text-sm text-gray-600 mb-2"><strong>Dostava mašine na kućnu adresu u Zrenjaninu:</strong> 500 din</p>
+                            <p class="text-sm text-gray-600"><strong>Dodatak 0,5l hemije za čišćenje:</strong> 400 din</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- What's Included -->
+                <div class="price-card bg-white rounded-lg shadow-md overflow-hidden relative border border-gray-200">
+                    <div class="price-badge">Uključeno</div>
+                    <div class="p-8">
+                        <div class="service-icon bg-blue-100">
+                            <i class="fas fa-check-circle text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-6">Dobija se</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-600">Mašina za dubinsko Combo Star 10/1</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-600">Hemija 0,5l koncentrata - razblažuje se sa 1:20 vode</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-600">Četka za šrafilicu</span></li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-600">Četka za ručno trljanje</span></li>
+                        </ul>
+                        <div class="mt-6 p-4 bg-green-50 rounded-lg">
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-phone text-green-600 mr-2"></i>
+                                <span class="font-bold text-green-800">061/2117615</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-map-marker-alt text-green-600 mr-2"></i>
+                                <span class="text-green-800">Zrenjanin</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Spremni da očistimo vaš nameštaj ili vozilo?</h2>
+            <p class="text-xl mb-8">Kontaktirajte nas danas i zakažite termin za profesionalno dubinsko čišćenje</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="kontakt.html#contact-form" class="bg-white hover:bg-gray-100 text-blue-600 font-bold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">Pošaljite upit</a>
+                <a href="tel:+381612117615" class="bg-transparent hover:bg-blue-700 text-white font-bold py-3 px-8 border-2 border-white rounded-lg transition duration-300 transform hover:scale-105">📞Pozovite 061/211-7615</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+   <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-car text-blue-600 text-2xl mr-2"></i>
+                        <span class="font-bold text-xl text-blue-600">M<span class="text-blue-400">Detailing</span></span>
+                    </div>
+                    <p class="text-gray-400">Vodeći pružač usluga dubinskog čišćenja nameštaja i vozila u Zrenjaninu sa višegodišnjim iskustvom i hiljadama zadovoljnih klijenata.</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Usluge Dubinskog Pranja</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="usluge.html" class="hover:text-blue-400 transition duration-300">Dubinsko pranje nameštaja</a></li>
+                        <li><a href="usluge.html" class="hover:text-blue-400 transition duration-300">Pranje vozila</a></li>
+                        <li><a href="usluge.html" class="hover:text-blue-400 transition duration-300">Pranje madraca</a></li>
+                        <li><a href="usluge.html" class="hover:text-blue-400 transition duration-300">Dezinfekcija</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Stranice</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="index.html" class="hover:text-blue-400 transition duration-300">Početna</a></li>
+                        <li><a href="usluge.html" class="text-blue-400">Usluge</a></li>
+                        <li><a href="o_nama.html" class="hover:text-blue-400 transition duration-300">O nama</a></li>
+                        <li><a href="galerija.html" class="hover:text-blue-400 transition duration-300">Galerija</a></li>
+                        <li><a href="kontakt.html" class="hover:text-blue-400 transition duration-300">Kontakt</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Kontakt</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-blue-400"></i> Valjevska 5, Zrenjanin</li>
+                        <li class="flex items-center"><i class="fas fa-phone-alt mr-2 text-blue-400"></i> +381 61 211 7615</li>
+                        <li class="flex items-center"><i class="fas fa-envelope mr-2 text-blue-400"></i> mdetailingzr@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+               <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2024 MDetailing Zrenjanin. Sva prava zadržana. | Cene dubinskog pranja</p>
+                <div class="flex space-x-6">
+                    <a href="https://www.instagram.com/dubinskopranjezr" class="text-gray-400 hover:text-blue-400 transition duration-300" aria-label="Instagram dubinsko pranje"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61555680638809" class="text-gray-400 hover:text-blue-400 transition duration-300" aria-label="Facebook MDetailing"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/mdetailing_zr" class="text-gray-400 hover:text-blue-400 transition duration-300" aria-label="Instagram vozila"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu functionality
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('active');
+                mobileMenuButton.classList.toggle('active');
+            });
+
+            // Close mobile menu when clicking on a link
+            const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+            mobileMenuLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.remove('active');
+                    mobileMenuButton.classList.remove('active');
+                });
+            });
+
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', function(event) {
+                if (!mobileMenuButton.contains(event.target) && !mobileMenu.contains(event.target)) {
+                    mobileMenu.classList.remove('active');
+                    mobileMenuButton.classList.remove('active');
+                }
+            });
+        }
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetElement = document.querySelector(this.getAttribute('href'));
+                if (targetElement) window.scrollTo({ top: targetElement.offsetTop - 80, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
